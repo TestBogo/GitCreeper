@@ -15,6 +15,7 @@ nodegit.Repository.open("../Onu/onu2-server")
             console.log(
                 commit.author().name() + " <" + commit.author().email() + ">"
             );
+
         });
 
         // Start emitting events
